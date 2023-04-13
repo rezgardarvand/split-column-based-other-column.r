@@ -1,7 +1,4 @@
 #split column based other column.r
-data<-data.frame(x=c("a","b","c","d","e", "s"), 
-                 y=c("b","c","f", "g","a",""),
-                 point=(c(20,23,63,32,25,20)))
 library(data.table)
 DT <- fread("plot1   data    plot2   data2 plot3 data3
             a       25       c       28     k     6
